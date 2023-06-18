@@ -5,7 +5,7 @@ const searchBtn = document.getElementById('search-btn');
 const search_result = document.getElementById('search-result');
 const show_more = document.getElementById('show-more');
 
-// window.addEventListener('load', ()=> fetchImages());
+// window.addEventListener('load', ()=> fetchImages('good'));
 
 let keyword = '';
 let page = 1;
@@ -49,8 +49,6 @@ show_more.addEventListener('click', () => {
 searchBtn.addEventListener('click', () => {
     page = 1;
     fetchImages();
-   
-
 })
 
 

@@ -93,3 +93,11 @@ h2 {
     object-fit: cover;
     border-radius: 4px;
 }
+
+@media screen and (max-width:550px) {
+    #search-result
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
