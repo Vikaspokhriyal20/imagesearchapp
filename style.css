@@ -68,6 +68,7 @@ body {
     margin-bottom: 1rem;
     text-transform: uppercase;
     border-radius: 2px;
+    display: none;
 }
 
 #search-result
